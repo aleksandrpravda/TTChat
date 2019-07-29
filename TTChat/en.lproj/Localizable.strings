@@ -1,0 +1,25 @@
+/*
+  Copyright © 2019 Alexander Rogachev. All rights reserved.
+*/
+
+"HowAreYou" = "How are you?";
+"WhatIsYourFavoritMovie" = "What's Your favorite movie?";
+"WhereDoYouFrom" = "Where do you from?";
+"DoYouLikeLasAvengersMovie" = "Do you like last Avengers movie?";
+"WhoIsTheStrongestSuperheroInTheWorld" = "Who's the strongest superhero in the world?";
+"FEAL_GREAT" = "Good, how about yourself?";
+"FINE" = "Fine, and you?";
+"DIE" = "DIE! DIE! DIE";
+"G_O_T" = "Game of thrones, definitely.";
+"DO_NOT_LIKE_MOVIES" = "I don't like movies.";
+"TERMINATOR" = "T-E-R-M-I-N-A-T-O-R";
+"FROM_COMICS" = "From comics, didn't you know that?";
+"DO_NOT_WANT_ANSWER" = "...";
+"NOT_FROM_HEAR" = "Not from here.";
+"DC_BETTER" = "DC is better, but don't tell anybody.";
+"DID_NOT_LIKE" = "No, I don't.";
+"AWESOME" = "This is awesome movie.";
+"I_AM" = "I am of course.";
+"HULK" = "Hulk! or... No, Hulk.";
+"SUPERMAN" = "Superman. Sorry for that.";
+"GREATING" = "Hello. I'm ";

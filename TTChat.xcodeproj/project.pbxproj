@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33315DE522EC454C003EAA3E /* ChatSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 33315DE422EC454C003EAA3E /* ChatSocket.m */; };
+		33315DE822EC4C33003EAA3E /* MarvelService.m in Sources */ = {isa = PBXBuildFile; fileRef = 33315DE722EC4C33003EAA3E /* MarvelService.m */; };
+		33315DEB22EC4C6B003EAA3E /* MarvelApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 33315DEA22EC4C6B003EAA3E /* MarvelApiClient.m */; };
+		33315DED22EC5841003EAA3E /* TestMarvelApiService.m in Sources */ = {isa = PBXBuildFile; fileRef = 33315DEC22EC5841003EAA3E /* TestMarvelApiService.m */; };
+		33315DEF22EC59F3003EAA3E /* MarvelApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 33315DEA22EC4C6B003EAA3E /* MarvelApiClient.m */; };
+		33315DF222EC6255003EAA3E /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 33315DF122EC6255003EAA3E /* NSString+MD5.m */; };
+		33315DF522EC7BFD003EAA3E /* AnswerGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 33315DF422EC7BFC003EAA3E /* AnswerGenerator.m */; };
+		33315DF922EC7C4C003EAA3E /* Consts.m in Sources */ = {isa = PBXBuildFile; fileRef = 33315DF822EC7C4C003EAA3E /* Consts.m */; };
+		33315DFC22EC9974003EAA3E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33315DFE22EC9974003EAA3E /* Localizable.strings */; };
+		333E095922EE62810078C8C6 /* ChatUserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 333E095722EE62810078C8C6 /* ChatUserTableViewCell.m */; };
+		333E095A22EE62810078C8C6 /* ChatUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 333E095822EE62810078C8C6 /* ChatUserTableViewCell.xib */; };
+		333E095E22EE62960078C8C6 /* ChatOwnerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 333E095C22EE62960078C8C6 /* ChatOwnerTableViewCell.m */; };
+		333E095F22EE62960078C8C6 /* ChatOwnerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 333E095D22EE62960078C8C6 /* ChatOwnerTableViewCell.xib */; };
+		333E096222EE63B90078C8C6 /* ResizableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 333E096122EE63B90078C8C6 /* ResizableImageView.m */; };
+		333E096522EE8D570078C8C6 /* TTChatModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 333E096322EE8D560078C8C6 /* TTChatModel.xcdatamodeld */; };
+		333E097922EEC0040078C8C6 /* TTChatModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 333E096322EE8D560078C8C6 /* TTChatModel.xcdatamodeld */; };
+		3367100D22EEEC0000D3BA40 /* InteractableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3367100C22EEEC0000D3BA40 /* InteractableLabel.m */; };
+		337564C522ED897D0049C26C /* TestMarvelService.m in Sources */ = {isa = PBXBuildFile; fileRef = 337564C422ED897D0049C26C /* TestMarvelService.m */; };
+		337564C622ED89950049C26C /* MarvelService.m in Sources */ = {isa = PBXBuildFile; fileRef = 33315DE722EC4C33003EAA3E /* MarvelService.m */; };
+		337564CA22EDC2360049C26C /* QuestionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 337564C922EDC2360049C26C /* QuestionsView.m */; };
+		337564CE22EDD7BD0049C26C /* CharactersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 337564CC22EDD7BD0049C26C /* CharactersViewController.m */; };
+		337564CF22EDD7BD0049C26C /* CharactersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 337564CD22EDD7BD0049C26C /* CharactersViewController.xib */; };
+		337564D222EDD7E70049C26C /* CharactersViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 337564D122EDD7E70049C26C /* CharactersViewModel.m */; };
+		337564D522EDD87D0049C26C /* Coordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 337564D422EDD87D0049C26C /* Coordinator.m */; };
+		337564D822EDDBEB0049C26C /* AppCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 337564D722EDDBEB0049C26C /* AppCoordinator.m */; };
+		337564E222EDEBCD0049C26C /* ChatViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 337564E122EDEBCD0049C26C /* ChatViewModel.m */; };
+		337564E622EDECDC0049C26C /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 337564E422EDECDC0049C26C /* ChatViewController.m */; };
+		337564E722EDECDC0049C26C /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 337564E522EDECDC0049C26C /* ChatViewController.xib */; };
+		337564EB22EDF6C30049C26C /* CharacterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 337564E922EDF6C30049C26C /* CharacterTableViewCell.m */; };
+		337564EC22EDF6C30049C26C /* CharacterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 337564EA22EDF6C30049C26C /* CharacterTableViewCell.xib */; };
+		337564EF22EDF7230049C26C /* Imageloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 337564EE22EDF7230049C26C /* Imageloader.m */; };
+		33F2545422EB2080004339AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F2545322EB2080004339AA /* AppDelegate.m */; };
+		33F2545F22EB2082004339AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F2545E22EB2082004339AA /* Assets.xcassets */; };
+		33F2546222EB2082004339AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F2546022EB2082004339AA /* LaunchScreen.storyboard */; };
+		33F2546522EB2082004339AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F2546422EB2082004339AA /* main.m */; };
+		33F2547B22EB20E8004339AA /* ServerSideSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F2547A22EB20E8004339AA /* ServerSideSimulator.m */; };
+		33F2548122EB354C004339AA /* ChatService.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F2548022EB354C004339AA /* ChatService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33F2546B22EB2082004339AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33F2544722EB2080004339AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33F2544E22EB2080004339AA;
+			remoteInfo = TTChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33315DE322EC454C003EAA3E /* ChatSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatSocket.h; sourceTree = "<group>"; };
+		33315DE422EC454C003EAA3E /* ChatSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatSocket.m; sourceTree = "<group>"; };
+		33315DE622EC4C33003EAA3E /* MarvelService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarvelService.h; sourceTree = "<group>"; };
+		33315DE722EC4C33003EAA3E /* MarvelService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarvelService.m; sourceTree = "<group>"; };
+		33315DE922EC4C6B003EAA3E /* MarvelApiClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarvelApiClient.h; sourceTree = "<group>"; };
+		33315DEA22EC4C6B003EAA3E /* MarvelApiClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarvelApiClient.m; sourceTree = "<group>"; };
+		33315DEC22EC5841003EAA3E /* TestMarvelApiService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMarvelApiService.m; sourceTree = "<group>"; };
+		33315DF022EC6255003EAA3E /* NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		33315DF122EC6255003EAA3E /* NSString+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		33315DF322EC7BFC003EAA3E /* AnswerGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnswerGenerator.h; sourceTree = "<group>"; };
+		33315DF422EC7BFC003EAA3E /* AnswerGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnswerGenerator.m; sourceTree = "<group>"; };
+		33315DF722EC7C4C003EAA3E /* Consts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Consts.h; sourceTree = "<group>"; };
+		33315DF822EC7C4C003EAA3E /* Consts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Consts.m; sourceTree = "<group>"; };
+		33315DFD22EC9974003EAA3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		333E095622EE62810078C8C6 /* ChatUserTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatUserTableViewCell.h; sourceTree = "<group>"; };
+		333E095722EE62810078C8C6 /* ChatUserTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatUserTableViewCell.m; sourceTree = "<group>"; };
+		333E095822EE62810078C8C6 /* ChatUserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatUserTableViewCell.xib; sourceTree = "<group>"; };
+		333E095B22EE62960078C8C6 /* ChatOwnerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatOwnerTableViewCell.h; sourceTree = "<group>"; };
+		333E095C22EE62960078C8C6 /* ChatOwnerTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatOwnerTableViewCell.m; sourceTree = "<group>"; };
+		333E095D22EE62960078C8C6 /* ChatOwnerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatOwnerTableViewCell.xib; sourceTree = "<group>"; };
+		333E096022EE63B90078C8C6 /* ResizableImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResizableImageView.h; sourceTree = "<group>"; };
+		333E096122EE63B90078C8C6 /* ResizableImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResizableImageView.m; sourceTree = "<group>"; };
+		333E096422EE8D560078C8C6 /* TTChatModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TTChatModel.xcdatamodel; sourceTree = "<group>"; };
+		3367100B22EEEC0000D3BA40 /* InteractableLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InteractableLabel.h; sourceTree = "<group>"; };
+		3367100C22EEEC0000D3BA40 /* InteractableLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractableLabel.m; sourceTree = "<group>"; };
+		337564C422ED897D0049C26C /* TestMarvelService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMarvelService.m; sourceTree = "<group>"; };
+		337564C822EDC2360049C26C /* QuestionsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionsView.h; sourceTree = "<group>"; };
+		337564C922EDC2360049C26C /* QuestionsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionsView.m; sourceTree = "<group>"; };
+		337564CB22EDD7BD0049C26C /* CharactersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharactersViewController.h; sourceTree = "<group>"; };
+		337564CC22EDD7BD0049C26C /* CharactersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharactersViewController.m; sourceTree = "<group>"; };
+		337564CD22EDD7BD0049C26C /* CharactersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharactersViewController.xib; sourceTree = "<group>"; };
+		337564D022EDD7E70049C26C /* CharactersViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharactersViewModel.h; sourceTree = "<group>"; };
+		337564D122EDD7E70049C26C /* CharactersViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharactersViewModel.m; sourceTree = "<group>"; };
+		337564D322EDD87D0049C26C /* Coordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coordinator.h; sourceTree = "<group>"; };
+		337564D422EDD87D0049C26C /* Coordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coordinator.m; sourceTree = "<group>"; };
+		337564D622EDDBEB0049C26C /* AppCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppCoordinator.h; sourceTree = "<group>"; };
+		337564D722EDDBEB0049C26C /* AppCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppCoordinator.m; sourceTree = "<group>"; };
+		337564E022EDEBCD0049C26C /* ChatViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewModel.h; sourceTree = "<group>"; };
+		337564E122EDEBCD0049C26C /* ChatViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewModel.m; sourceTree = "<group>"; };
+		337564E322EDECDC0049C26C /* ChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		337564E422EDECDC0049C26C /* ChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		337564E522EDECDC0049C26C /* ChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		337564E822EDF6C30049C26C /* CharacterTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharacterTableViewCell.h; sourceTree = "<group>"; };
+		337564E922EDF6C30049C26C /* CharacterTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharacterTableViewCell.m; sourceTree = "<group>"; };
+		337564EA22EDF6C30049C26C /* CharacterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterTableViewCell.xib; sourceTree = "<group>"; };
+		337564ED22EDF7230049C26C /* Imageloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Imageloader.h; sourceTree = "<group>"; };
+		337564EE22EDF7230049C26C /* Imageloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Imageloader.m; sourceTree = "<group>"; };
+		33F2544F22EB2080004339AA /* TTChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F2545222EB2080004339AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33F2545322EB2080004339AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33F2545E22EB2082004339AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33F2546122EB2082004339AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33F2546322EB2082004339AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33F2546422EB2082004339AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33F2546A22EB2082004339AA /* TTChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F2547022EB2082004339AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33F2547922EB20E8004339AA /* ServerSideSimulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerSideSimulator.h; sourceTree = "<group>"; };
+		33F2547A22EB20E8004339AA /* ServerSideSimulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerSideSimulator.m; sourceTree = "<group>"; };
+		33F2547F22EB354C004339AA /* ChatService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatService.h; sourceTree = "<group>"; };
+		33F2548022EB354C004339AA /* ChatService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33F2544C22EB2080004339AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F2546722EB2082004339AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		337564D922EDE7F50049C26C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				337564ED22EDF7230049C26C /* Imageloader.h */,
+				337564EE22EDF7230049C26C /* Imageloader.m */,
+				33315DE322EC454C003EAA3E /* ChatSocket.h */,
+				33315DE422EC454C003EAA3E /* ChatSocket.m */,
+				33F2547F22EB354C004339AA /* ChatService.h */,
+				33F2548022EB354C004339AA /* ChatService.m */,
+				33315DE622EC4C33003EAA3E /* MarvelService.h */,
+				33315DE722EC4C33003EAA3E /* MarvelService.m */,
+				33315DE922EC4C6B003EAA3E /* MarvelApiClient.h */,
+				33315DEA22EC4C6B003EAA3E /* MarvelApiClient.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		337564DA22EDE8130049C26C /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				337564D322EDD87D0049C26C /* Coordinator.h */,
+				337564D422EDD87D0049C26C /* Coordinator.m */,
+				337564D622EDDBEB0049C26C /* AppCoordinator.h */,
+				337564D722EDDBEB0049C26C /* AppCoordinator.m */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		337564DB22EDE8220049C26C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33F2546022EB2082004339AA /* LaunchScreen.storyboard */,
+				337564C822EDC2360049C26C /* QuestionsView.h */,
+				337564C922EDC2360049C26C /* QuestionsView.m */,
+				337564CB22EDD7BD0049C26C /* CharactersViewController.h */,
+				337564CC22EDD7BD0049C26C /* CharactersViewController.m */,
+				337564CD22EDD7BD0049C26C /* CharactersViewController.xib */,
+				337564E322EDECDC0049C26C /* ChatViewController.h */,
+				337564E422EDECDC0049C26C /* ChatViewController.m */,
+				337564E522EDECDC0049C26C /* ChatViewController.xib */,
+				337564E822EDF6C30049C26C /* CharacterTableViewCell.h */,
+				337564E922EDF6C30049C26C /* CharacterTableViewCell.m */,
+				337564EA22EDF6C30049C26C /* CharacterTableViewCell.xib */,
+				333E095622EE62810078C8C6 /* ChatUserTableViewCell.h */,
+				333E095722EE62810078C8C6 /* ChatUserTableViewCell.m */,
+				333E095822EE62810078C8C6 /* ChatUserTableViewCell.xib */,
+				333E095B22EE62960078C8C6 /* ChatOwnerTableViewCell.h */,
+				333E095C22EE62960078C8C6 /* ChatOwnerTableViewCell.m */,
+				333E095D22EE62960078C8C6 /* ChatOwnerTableViewCell.xib */,
+				333E096022EE63B90078C8C6 /* ResizableImageView.h */,
+				333E096122EE63B90078C8C6 /* ResizableImageView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		337564DC22EDE83C0049C26C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				33F2547922EB20E8004339AA /* ServerSideSimulator.h */,
+				33F2547A22EB20E8004339AA /* ServerSideSimulator.m */,
+				33315DF022EC6255003EAA3E /* NSString+MD5.h */,
+				33315DF122EC6255003EAA3E /* NSString+MD5.m */,
+				33315DF322EC7BFC003EAA3E /* AnswerGenerator.h */,
+				33315DF422EC7BFC003EAA3E /* AnswerGenerator.m */,
+				33315DF722EC7C4C003EAA3E /* Consts.h */,
+				33315DF822EC7C4C003EAA3E /* Consts.m */,
+				3367100B22EEEC0000D3BA40 /* InteractableLabel.h */,
+				3367100C22EEEC0000D3BA40 /* InteractableLabel.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		337564DD22EDE85C0049C26C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				337564D022EDD7E70049C26C /* CharactersViewModel.h */,
+				337564D122EDD7E70049C26C /* CharactersViewModel.m */,
+				337564E022EDEBCD0049C26C /* ChatViewModel.h */,
+				337564E122EDEBCD0049C26C /* ChatViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		337564DF22EDE8890049C26C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				333E096322EE8D560078C8C6 /* TTChatModel.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33F2544622EB2080004339AA = {
+			isa = PBXGroup;
+			children = (
+				33F2545122EB2080004339AA /* TTChat */,
+				33F2546D22EB2082004339AA /* TTChatTests */,
+				33F2545022EB2080004339AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33F2545022EB2080004339AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33F2544F22EB2080004339AA /* TTChat.app */,
+				33F2546A22EB2082004339AA /* TTChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33F2545122EB2080004339AA /* TTChat */ = {
+			isa = PBXGroup;
+			children = (
+				33F2545222EB2080004339AA /* AppDelegate.h */,
+				33F2545322EB2080004339AA /* AppDelegate.m */,
+				33F2545E22EB2082004339AA /* Assets.xcassets */,
+				33F2546322EB2082004339AA /* Info.plist */,
+				33F2546422EB2082004339AA /* main.m */,
+				33315DFE22EC9974003EAA3E /* Localizable.strings */,
+				337564DA22EDE8130049C26C /* Coordinators */,
+				337564DD22EDE85C0049C26C /* ViewModels */,
+				337564DB22EDE8220049C26C /* View */,
+				337564DF22EDE8890049C26C /* Model */,
+				337564D922EDE7F50049C26C /* Services */,
+				337564DC22EDE83C0049C26C /* Utils */,
+			);
+			path = TTChat;
+			sourceTree = "<group>";
+		};
+		33F2546D22EB2082004339AA /* TTChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				33F2547022EB2082004339AA /* Info.plist */,
+				33315DEC22EC5841003EAA3E /* TestMarvelApiService.m */,
+				337564C422ED897D0049C26C /* TestMarvelService.m */,
+			);
+			path = TTChatTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33F2544E22EB2080004339AA /* TTChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F2547322EB2082004339AA /* Build configuration list for PBXNativeTarget "TTChat" */;
+			buildPhases = (
+				33F2544B22EB2080004339AA /* Sources */,
+				33F2544C22EB2080004339AA /* Frameworks */,
+				33F2544D22EB2080004339AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTChat;
+			productName = TTChat;
+			productReference = 33F2544F22EB2080004339AA /* TTChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33F2546922EB2082004339AA /* TTChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F2547622EB2082004339AA /* Build configuration list for PBXNativeTarget "TTChatTests" */;
+			buildPhases = (
+				33F2546622EB2082004339AA /* Sources */,
+				33F2546722EB2082004339AA /* Frameworks */,
+				33F2546822EB2082004339AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33F2546C22EB2082004339AA /* PBXTargetDependency */,
+			);
+			name = TTChatTests;
+			productName = TTChatTests;
+			productReference = 33F2546A22EB2082004339AA /* TTChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33F2544722EB2080004339AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Alexander Rogachev";
+				TargetAttributes = {
+					33F2544E22EB2080004339AA = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					33F2546922EB2082004339AA = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 33F2544E22EB2080004339AA;
+					};
+				};
+			};
+			buildConfigurationList = 33F2544A22EB2080004339AA /* Build configuration list for PBXProject "TTChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33F2544622EB2080004339AA;
+			productRefGroup = 33F2545022EB2080004339AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33F2544E22EB2080004339AA /* TTChat */,
+				33F2546922EB2082004339AA /* TTChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33F2544D22EB2080004339AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333E095A22EE62810078C8C6 /* ChatUserTableViewCell.xib in Resources */,
+				333E095F22EE62960078C8C6 /* ChatOwnerTableViewCell.xib in Resources */,
+				33F2546222EB2082004339AA /* LaunchScreen.storyboard in Resources */,
+				337564EC22EDF6C30049C26C /* CharacterTableViewCell.xib in Resources */,
+				337564CF22EDD7BD0049C26C /* CharactersViewController.xib in Resources */,
+				33315DFC22EC9974003EAA3E /* Localizable.strings in Resources */,
+				33F2545F22EB2082004339AA /* Assets.xcassets in Resources */,
+				337564E722EDECDC0049C26C /* ChatViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F2546822EB2082004339AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33F2544B22EB2080004339AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337564D822EDDBEB0049C26C /* AppCoordinator.m in Sources */,
+				333E095E22EE62960078C8C6 /* ChatOwnerTableViewCell.m in Sources */,
+				33315DEB22EC4C6B003EAA3E /* MarvelApiClient.m in Sources */,
+				337564EB22EDF6C30049C26C /* CharacterTableViewCell.m in Sources */,
+				3367100D22EEEC0000D3BA40 /* InteractableLabel.m in Sources */,
+				337564D222EDD7E70049C26C /* CharactersViewModel.m in Sources */,
+				333E096222EE63B90078C8C6 /* ResizableImageView.m in Sources */,
+				337564CE22EDD7BD0049C26C /* CharactersViewController.m in Sources */,
+				337564E222EDEBCD0049C26C /* ChatViewModel.m in Sources */,
+				337564D522EDD87D0049C26C /* Coordinator.m in Sources */,
+				33315DE522EC454C003EAA3E /* ChatSocket.m in Sources */,
+				337564CA22EDC2360049C26C /* QuestionsView.m in Sources */,
+				33315DF522EC7BFD003EAA3E /* AnswerGenerator.m in Sources */,
+				337564EF22EDF7230049C26C /* Imageloader.m in Sources */,
+				33315DF222EC6255003EAA3E /* NSString+MD5.m in Sources */,
+				337564E622EDECDC0049C26C /* ChatViewController.m in Sources */,
+				33315DE822EC4C33003EAA3E /* MarvelService.m in Sources */,
+				33F2548122EB354C004339AA /* ChatService.m in Sources */,
+				333E096522EE8D570078C8C6 /* TTChatModel.xcdatamodeld in Sources */,
+				33F2545422EB2080004339AA /* AppDelegate.m in Sources */,
+				33F2546522EB2082004339AA /* main.m in Sources */,
+				333E095922EE62810078C8C6 /* ChatUserTableViewCell.m in Sources */,
+				33315DF922EC7C4C003EAA3E /* Consts.m in Sources */,
+				33F2547B22EB20E8004339AA /* ServerSideSimulator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F2546622EB2082004339AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333E097922EEC0040078C8C6 /* TTChatModel.xcdatamodeld in Sources */,
+				33315DEF22EC59F3003EAA3E /* MarvelApiClient.m in Sources */,
+				337564C522ED897D0049C26C /* TestMarvelService.m in Sources */,
+				337564C622ED89950049C26C /* MarvelService.m in Sources */,
+				33315DED22EC5841003EAA3E /* TestMarvelApiService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33F2546C22EB2082004339AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33F2544E22EB2080004339AA /* TTChat */;
+			targetProxy = 33F2546B22EB2082004339AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33315DFE22EC9974003EAA3E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33315DFD22EC9974003EAA3E /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		33F2546022EB2082004339AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33F2546122EB2082004339AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33F2547122EB2082004339AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33F2547222EB2082004339AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33F2547422EB2082004339AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6GSU378LR;
+				INFOPLIST_FILE = TTChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleksandrpravda.www.TTChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33F2547522EB2082004339AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6GSU378LR;
+				INFOPLIST_FILE = TTChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleksandrpravda.www.TTChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33F2547722EB2082004339AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6GSU378LR;
+				INFOPLIST_FILE = TTChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleksandrpravda.www.TTChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTChat.app/TTChat";
+			};
+			name = Debug;
+		};
+		33F2547822EB2082004339AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6GSU378LR;
+				INFOPLIST_FILE = TTChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleksandrpravda.www.TTChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTChat.app/TTChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33F2544A22EB2080004339AA /* Build configuration list for PBXProject "TTChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F2547122EB2082004339AA /* Debug */,
+				33F2547222EB2082004339AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F2547322EB2082004339AA /* Build configuration list for PBXNativeTarget "TTChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F2547422EB2082004339AA /* Debug */,
+				33F2547522EB2082004339AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F2547622EB2082004339AA /* Build configuration list for PBXNativeTarget "TTChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F2547722EB2082004339AA /* Debug */,
+				33F2547822EB2082004339AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		333E096322EE8D560078C8C6 /* TTChatModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				333E096422EE8D560078C8C6 /* TTChatModel.xcdatamodel */,
+			);
+			currentVersion = 333E096422EE8D560078C8C6 /* TTChatModel.xcdatamodel */;
+			path = TTChatModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 33F2544722EB2080004339AA /* Project object */;
+}

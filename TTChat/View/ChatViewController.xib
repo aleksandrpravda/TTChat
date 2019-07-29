@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChetViewController">
+            <connections>
+                <outlet property="indicatorView" destination="LEG-43-XDi" id="wcp-4y-Wib"/>
+                <outlet property="questionView" destination="EtV-cA-x8x" id="uxW-FA-LvR"/>
+                <outlet property="tableView" destination="pp4-SL-LRh" id="omo-XM-TtX"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EtV-cA-x8x" customClass="QuestionsView">
+                    <rect key="frame" x="20" y="812" width="374" height="50"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="HQ4-vP-tIZ"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pp4-SL-LRh">
+                    <rect key="frame" x="20" y="44" width="374" height="760"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="sectionIndexBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="LEG-43-XDi">
+                    <rect key="frame" x="188.5" y="434.5" width="37" height="37"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="LEG-43-XDi" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="DMx-G5-TyL"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="EtV-cA-x8x" secondAttribute="bottom" id="DoI-qX-qEW"/>
+                <constraint firstItem="pp4-SL-LRh" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="Egh-f9-tue"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="pp4-SL-LRh" secondAttribute="trailing" constant="20" id="UkR-zE-tg3"/>
+                <constraint firstItem="LEG-43-XDi" firstAttribute="centerY" secondItem="Q5M-cg-NOt" secondAttribute="centerY" id="Zxm-Tc-1cL"/>
+                <constraint firstItem="pp4-SL-LRh" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="bnK-b8-alh"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="EtV-cA-x8x" secondAttribute="trailing" constant="20" id="bqZ-T5-waL"/>
+                <constraint firstItem="EtV-cA-x8x" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="iUZ-8f-bVo"/>
+                <constraint firstItem="EtV-cA-x8x" firstAttribute="top" secondItem="pp4-SL-LRh" secondAttribute="bottom" constant="8" id="xXd-9X-lHm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="131.8840579710145" y="87.723214285714278"/>
+        </view>
+    </objects>
+</document>
